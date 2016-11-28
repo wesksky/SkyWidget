@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="36dip"
+    android:background="@drawable/selector_white_gray"
+    android:minHeight="36dip">
+
+    <TextView
+        android:id="@+id/item_main_list_content"
+        android:layout_width="match_parent"
+        android:layout_height="36dip"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/C1"
+        android:textSize="@dimen/S4" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/C2" />
+
+</RelativeLayout>

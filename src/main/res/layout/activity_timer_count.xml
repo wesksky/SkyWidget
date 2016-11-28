@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sky="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.sky.skywidget.widget.TimerCount
+        android:id="@+id/timer_count1"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dip"
+        sky:trackEndColor="@color/C2"
+        sky:trackStartColor="@color/C1"
+        sky:trackWidth="30dp"
+        sky:trackballImage="@drawable/timer_count_arrow"
+        sky:trackballRadius="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimerCount">
+        <attr name="trackballRadius" format="dimension" />
+        <attr name="trackStartColor" format="color" />
+        <attr name="trackEndColor" format="color" />
+        <attr name="trackWidth" format="dimension" />
+        <attr name="trackballImage" format="reference" />
+    </declare-styleable>
+
+</resources>
